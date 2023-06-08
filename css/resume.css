@@ -190,7 +190,7 @@ p {
 }
 
 .header .contact-details {
-    background-color: rgba(6, 0, 3, 0.7);
+    background-color: var(--black);
     color: var(--white);
     border-radius: 6px;
 }
@@ -202,16 +202,16 @@ p {
 .header .header-links,
 .contact .contact-links,
 .header h1 {
-    color: var(--black);
+    color: var(--white);
     margin-bottom: 45px;
 }
 
 .header .flex-list {
-    color: var(--black);
+    color: var(--white);
 }
 
 .header .flex-list li a {
-    color: var(--black);
+    color: var(--white);
 }
 
 .header .flex-list li:hover,
